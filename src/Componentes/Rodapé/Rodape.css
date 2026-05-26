@@ -1,0 +1,9 @@
+.rodape__root {
+  background-color: gray;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  height: 50px;
+}

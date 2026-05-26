@@ -1,0 +1,15 @@
+.botao-customizado__root {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-customizado__primario {
+  background-color: green;
+  color: white;
+}
+
+.botao-customizado__secundario {
+  background-color: blue;
+  color: white;
+}
