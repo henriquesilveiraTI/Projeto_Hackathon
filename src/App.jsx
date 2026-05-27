@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import PaginaInicial from "./Paginas/PaginaInicial/PaginaInicial";
+import PaginaServico from "./Paginas/PaginaDeServico/paginaServico";
 
 
 const roteador = createBrowserRouter([
@@ -9,6 +10,11 @@ const roteador = createBrowserRouter([
   { 
     path: "",
     element: <PaginaInicial />
+  },
+  
+  { 
+    path: "/servicos",
+    element: <PaginaServico />
   },
 
 
@@ -25,7 +31,3 @@ function App() {
 }
 
 export default App;
-
-
-
-

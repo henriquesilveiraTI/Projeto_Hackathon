@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+
+  background: linear-gradient(
+    180deg,
+    #3d18e0,
+    #1f1f1f
+  );
+}
+
+.pagina-servicos__root {
+  width: 100%;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    180deg,
+    #3d18e0,
+    #1f1f1f
+  );
+
+  padding: 100px 16px 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-servicos {
+  color: white;
+
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.subtitulo-servicos {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+
+  text-align: center;
+
+  line-height: 1.5;
+
+  margin-bottom: 30px;
+
+  max-width: 320px;
+}
+
+.servicos-container {
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.card-servico {
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 22px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+
+  transition: 0.2s;
+}
+
+.card-servico:hover {
+  transform: translateY(-3px);
+}
+
+.card-servico:active {
+  transform: scale(0.98);
+}
+
+.card-servico__icon {
+  font-size: 34px;
+
+  color: #a855f7;
+}
+
+.card-servico__titulo {
+  color: white;
+
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.card-servico__descricao {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+.card-servico__botao {
+  width: 100%;
+  height: 52px;
+
+  margin-top: 10px;
+
+  border: none;
+  border-radius: 16px;
+
+  background: white;
+
+  color: #222;
+
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.card-servico__botao:hover {
+  transform: scale(1.02);
+}
+
+.card-servico__botao:active {
+  transform: scale(0.97);
+}
+
+@media (min-width: 768px) {
+
+  .servicos-container {
+    max-width: 500px;
+  }
+
+  .titulo-servicos {
+    font-size: 2.3rem;
+  }
+
+}
