@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 function PaginaInicial() {
 
@@ -35,10 +36,9 @@ function PaginaInicial() {
             className="input-login"
           />
 
-          <button
-            onClick={() => navigate("/servicos")}
-            className="botao-login"
-          >
+          <button  onClick={() => {
+            navigate("/servicos")}}
+            className="botao-login">
             Login
           </button>
 

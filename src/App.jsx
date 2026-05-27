@@ -2,7 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import PaginaInicial from "./Paginas/PaginaInicial/PaginaInicial";
 import PaginaServico from "./Paginas/PaginaDeServico/paginaServico";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const roteador = createBrowserRouter([
 
@@ -26,7 +27,10 @@ const roteador = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={roteador} />
+    <>
+      <RouterProvider router={roteador} />
+      <ToastContainer />
+    </>
   );
 }
 

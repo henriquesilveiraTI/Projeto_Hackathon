@@ -1,11 +1,13 @@
 import "./Navbar.css";
+
 import { RiMentalHealthLine } from "react-icons/ri";
+import { FaUserCircle } from "react-icons/fa";
 
 function Navbar() {
   return (
     <nav className="navbar">
 
-      <div className="navbar__container">
+      <div className="navbar__left">
 
         <RiMentalHealthLine className="navbar__icon" />
 
@@ -14,6 +16,10 @@ function Navbar() {
         </h1>
 
       </div>
+
+      <button className="navbar__user">
+        <FaUserCircle />
+      </button>
 
     </nav>
   );
