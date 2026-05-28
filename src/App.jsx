@@ -4,6 +4,9 @@ import PaginaInicial from "./Paginas/PaginaInicial/PaginaInicial";
 import PaginaServico from "./Paginas/PaginaDeServico/paginaServico";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Usuario from "./Paginas/Usuario/Usuario";
+import BemEstar from "./Paginas/bemEstarMental/mental";
+import Expediente from "./Paginas/expediente/expediente";
 
 const roteador = createBrowserRouter([
 
@@ -17,7 +20,20 @@ const roteador = createBrowserRouter([
     path: "/servicos",
     element: <PaginaServico />
   },
+  {
+    path: "/usuario",
+    element: <Usuario />
+  },
 
+  {
+    path: "/bem-estar",
+    element: <BemEstar />
+  },
+
+  {
+    path: "/expediente",
+    element: <Expediente />
+  },
 
   {
     path: "*",

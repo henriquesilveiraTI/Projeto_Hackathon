@@ -1,0 +1,173 @@
+.usuario-root {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(180deg,
+            #3d18e0,
+            #2c2c2c);
+}
+
+
+.usuario-container {
+    flex: 1;
+
+    width: 100%;
+    max-width: 380px;
+
+margin: 70px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+
+.perfil-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+
+.perfil-icon {
+    font-size: 90px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+.perfil-card h2 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+}
+
+
+.perfil-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.status-card {
+    height: 90px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.status-card span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.status-card p {
+    font-size: 16px;
+    width: 90px;
+    text-align: right;
+}
+
+
+.total {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.andamento {
+    background: rgba(255, 193, 7, 0.2);
+}
+
+
+.concluido {
+    background: rgba(76, 175, 80, 0.2);
+}
+
+
+.acoes-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.acao-btn,
+.logout-btn {
+    height: 55px;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.acao-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+
+.logout-btn {
+    background: white;
+    color: #222;
+}
+
+
+.acao-btn:hover,
+.logout-btn:hover {
+    transform: scale(1.02);
+}
+
+.voltar-btn {
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    color: white;
+
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    backdrop-filter: blur(8px);
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.voltar-btn:hover {
+    transform: scale(1.05);
+}

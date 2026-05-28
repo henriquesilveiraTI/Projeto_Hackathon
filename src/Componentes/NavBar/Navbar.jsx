@@ -2,8 +2,10 @@ import "./Navbar.css";
 
 import { RiMentalHealthLine } from "react-icons/ri";
 import { FaUserCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <nav className="navbar">
 
@@ -17,7 +19,8 @@ function Navbar() {
 
       </div>
 
-      <button className="navbar__user">
+      <button onClick={() => {
+            navigate("/usuario")}} className="navbar__user">
         <FaUserCircle />
       </button>
 

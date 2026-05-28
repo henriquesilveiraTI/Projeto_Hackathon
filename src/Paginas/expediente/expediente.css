@@ -1,0 +1,212 @@
+.expediente-root {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    180deg,
+    #3d18e0,
+    #2c2c2c
+  );
+
+  display: flex;
+  flex-direction: column;
+}
+
+.expediente-container {
+  width: 100%;
+  max-width: 380px;
+
+  margin: 70px auto 30px auto;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.voltar-btn {
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  color: white;
+
+  font-size: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(8px);
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.voltar-btn:hover {
+  transform: scale(1.05);
+}
+
+.header-card {
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 28px;
+
+  padding: 30px 20px;
+
+  backdrop-filter: blur(12px);
+
+  color: white;
+}
+
+.header-icon {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.header-card h1 {
+  font-size: 28px;
+
+  margin-bottom: 10px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.header-card p {
+  color: rgba(255, 255, 255, 0.75);
+
+  line-height: 1.5;
+}
+
+.horas-card {
+  height: 100px;
+
+  border-radius: 24px;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  backdrop-filter: blur(10px);
+}
+
+.horas-card svg {
+  font-size: 28px;
+}
+
+.horas-card span {
+  font-size: 14px;
+
+  opacity: 0.8;
+}
+
+.horas-card h2 {
+  font-size: 26px;
+
+  margin-top: 5px;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.timeline-card {
+  height: 85px;
+
+  border-radius: 22px;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+
+  color: white;
+
+  backdrop-filter: blur(10px);
+}
+
+.timeline-card svg {
+  font-size: 22px;
+}
+
+.timeline-card span {
+  font-size: 14px;
+
+  opacity: 0.75;
+}
+
+.timeline-card h3 {
+  font-size: 24px;
+
+  margin-top: 4px;
+}
+
+.entrada {
+  background: rgba(76, 175, 80, 0.18);
+}
+
+.pausa {
+  background: rgba(255, 193, 7, 0.18);
+}
+
+.retorno {
+  background: rgba(33, 150, 243, 0.18);
+}
+
+.saida {
+  background: rgba(244, 67, 54, 0.18);
+}
+
+.registrar-btn {
+  height: 58px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: white;
+
+  color: #222;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.registrar-btn:hover {
+  transform: scale(1.02);
+}

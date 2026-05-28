@@ -2,8 +2,10 @@ import "./paginaServico.css";
 import Navbar from "../../Componentes/NavBar/Navbar";
 import Rodape from "../../Componentes/Rodapé/Rodape";
 import {FaClock,FaTasks,FaChartLine,FaBrain} from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function PaginaServico() {
+    const navigate = useNavigate();
     return (
         <>
 
@@ -33,7 +35,9 @@ function PaginaServico() {
                             Inicie e finalize seu expediente com apenas um toque.
                         </p>
 
-                        <button className="card-servico__botao">
+                        <button onClick={() => {
+            navigate("/expediente")}}
+                        className="card-servico__botao">
                             Acessar
                         </button>
 
@@ -90,7 +94,9 @@ function PaginaServico() {
                             Monitore seu nível de estresse e evite sobrecarga.
                         </p>
 
-                        <button className="card-servico__botao">
+                        <button  onClick={() => {
+            navigate("/bem-estar")}}
+                        className="card-servico__botao">
                             Acessar
                         </button>
 
