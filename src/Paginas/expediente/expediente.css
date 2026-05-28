@@ -103,7 +103,7 @@
 
   border-radius: 24px;
 
-  padding: 20px;
+  padding: 17%;
 
   display: flex;
   align-items: center;
@@ -168,9 +168,9 @@
 }
 
 .timeline-card h3 {
-  font-size: 24px;
+  font-size: 17px;
 
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .entrada {
@@ -209,4 +209,8 @@
 
 .registrar-btn:hover {
   transform: scale(1.02);
+}
+
+.nomeajuste {
+  height: 35px;
 }

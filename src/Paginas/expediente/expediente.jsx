@@ -74,7 +74,7 @@ function Expediente() {
 
             <div>
               <span>Entrada</span>
-              <h3>{dados.entrada}</h3>
+              <h3 className="nomeajuste">{dados.entrada}</h3>
             </div>
 
           </div>
@@ -85,7 +85,7 @@ function Expediente() {
 
             <div>
               <span>Pausa</span>
-              <h3>{dados.pausa}</h3>
+              <h3 className="nomeajuste">{dados.pausa}</h3>
             </div>
 
           </div>
@@ -96,7 +96,7 @@ function Expediente() {
 
             <div>
               <span>Retorno</span>
-              <h3>{dados.retorno}</h3>
+              <h3 className="nomeajuste">{dados.retorno}</h3>
             </div>
 
           </div>
@@ -107,7 +107,7 @@ function Expediente() {
 
             <div>
               <span>Saída</span>
-              <h3>{dados.saida}</h3>
+              <h3 className="nomeajuste">{dados.saida}</h3>
             </div>
 
           </div>

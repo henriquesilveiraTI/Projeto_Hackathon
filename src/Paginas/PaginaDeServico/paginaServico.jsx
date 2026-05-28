@@ -14,9 +14,9 @@ function PaginaServico() {
                 <Navbar />
 
                 <h1 className="titulo-servicos">
-                    Bem-vindo ao Equilibra
-                </h1>
-
+                    Bem-vindo ao  Equi<span className="equilibra">libra</span>
+                    </h1>
+               
                 <p className="subtitulo-servicos">
                     Produtividade com equilíbrio para o seu home office.
                 </p>
