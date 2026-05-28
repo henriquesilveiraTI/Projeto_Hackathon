@@ -1,4 +1,4 @@
-import "./Expediente.css";
+import "./expediente.css";
 
 import Navbar from "../../Componentes/NavBar/Navbar";
 
